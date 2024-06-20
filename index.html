@@ -179,7 +179,8 @@
 <script src="script.js"></script>
 <!--github script--->
 <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyblhaMUrRLhuwtJo_Y9DAHbUhghNoLoN7oLJY6qBSKw3BG6yG7QHDPDR9ptNpMbD9A/exec'
+    const scriptURL ='https://script.google.com/macros/s/AKfycbwNw7O65FrRIxh8HhIkPMbF3TegCbP1DTHKzvs9SGv7fC9FQD02fKycm2jH_3UQTBh3/exec'
+    /*'https://script.google.com/macros/s/AKfycbyblhaMUrRLhuwtJo_Y9DAHbUhghNoLoN7oLJY6qBSKw3BG6yG7QHDPDR9ptNpMbD9A/exec'*/
     const form = document.forms['submit-to-google-sheet']
     const msg=document.getElementById("msg")
   
@@ -190,7 +191,7 @@
             msg.innerHTML="Message Sent Successfully...!"
             setTimeout(function(){
                 msg.innerHTML=""
-            },3000)
+            },1000);
             form.reset()
         })
         .catch(error => console.error('Error!', error.message))

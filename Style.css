@@ -380,3 +380,24 @@ nav ul #menu{
     margin-top: -40px;
     display: block;
 }
+/*seeee moreeee*/
+#more {
+    display: none;
+}
+#myBtn{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    transition: 0.3s;
+    border-radius: 10%;
+  }
+  #myBtn:hover{
+    background-color: #0041c2;
+    transform: translateY(-5px);
+
+  }

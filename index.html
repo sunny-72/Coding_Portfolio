@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sunny Kumar Portfolio</title>
     <link rel="stylesheet" href="Style.css">
     <script src="https://kit.fontawesome.com/e99d3cbd93.js" crossorigin="anonymous"></script>
 </head>
@@ -20,15 +20,16 @@
                     <li><a href="#contact">Contact</a></li>
                     <i id="menu" class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
                 </ul>
-                <i  id="menu" class="fa-solid fa-bars" onclick="openmenu()"></i>
+                <i id="menu" class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>Web Developer</p>
-                <h1>Hay...I'm <span>Sunny</span> <br>From Champaran,Bihar</h1>
+                <p>Data Analyst | Web Developer</p>
+                <h1>Hey...I'm <span>Sunny</span> <br>Aspiring Data Analyst/Data Scientist</h1>
             </div>
         </div>
     </div>
-    <!--About section-->
+
+    <!-- About -->
     <div id="about">
         <div class="container">
             <div class="row">
@@ -37,216 +38,208 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
-                    <p>I am Sunny Kumar, a dedicated and ambitious student from Champaran,
-                         Bihar. I am currently pursuing my Bachelor of Technology (B.Tech) in Computer Science and Engineering (C.S.E.) from
-                          Guru Jambheshwar University of Science and Technology (GJU), Hisar. 
-                         I have just completed my third year of studies and am set to enter my final year, equipped with a solid foundation and a passion for software development.
-                         <span id="dots">...</span><span id="more">
-                         <br>
-                         <br>
-                         My academic journey in Computer Science and Engineering has provided me with 
-                         comprehensive knowledge and
-                         hands-on experience in various programming languages and technologies.
-                         I am proficient in C++ and Python, and have gained experience in Java, JavaScript.
-                         My technical expertise extends to the MERN stack, which includes MongoDB, Express.js,
-                         React.js, and Node.js, showcasing my capability to build full-stack web applications.
-                         
-                         <br>
-                         <br>
-                         My practical experience includes a web developer internship, where I worked on developing an
-                         e-commerce website. During this internship, I utilized HTML, CSS, and JavaScript to create a functional and user-friendly online store.
-                         Additionally, I have completed a virtual Python developer internship, further enhancing my coding skills and understanding of software development.
-                         One of my notable projects is a web-based news application. This project, built using HTML, CSS, JavaScript, 
-                         Node.js, and Express.js, automatically fetches news from an API and displays it on the website. 
-                         This project highlights my ability to integrate APIs and create dynamic web applications.
-                         <br>
-                    
-                         I am also working on a project called StayAway, 
-                         an application similar to Airbnb, which aims to enhance the travel experience by providing functionalities
-                         such as user authentication and property listings. This project demonstrates my interest in real-world applications and my 
-                         capability to develop complex systems.</span></p>
-                        
-                        <button onclick="myFunction()" id="myBtn">Read more</button>
 
+                    <p><b>Profile Summary:</b><br>
+                    Aspiring Data Analyst with hands-on experience in SQL, Python, Excel, and Power BI.
+                    Skilled in data cleaning, exploratory data analysis (EDA), and dashboard development to generate meaningful insights.
+                    Seeking an entry-level Data Analyst role.</p>
+
+                    <p>
+                        I am Sunny Kumar, a B.Tech CSE student from Guru Jambheshwar University Of Science & Technology.
+                        Passionate about both software development and data analytics.
+                        <span id="dots">...</span>
+                        <span id="more">
+                        <br><br>
+                        I have experience in MERN stack development and have also worked on real-world data analytics projects.
+                        My technical expertise includes Python, SQL, Power BI, and full-stack development.
+                        </span>
+                    </p>
+
+                    <button onclick="myFunction()" id="myBtn">Read more</button>
 
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
+
+                    <!-- Skills -->
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Programming Languages</span><br>C++,Python,Javascript.</li>
-                            <li><span>web Application</span><br>UI/UX Designing And Full Stack Web Application using MERN Stack.</li>
-                            <li><span>Data Structure & Algorithm</span><br>Proficient in Data Structures and Algorithms (DSA) 
-                                with strong skills in problem-solving and optimizing code efficiency.</li>
-                            <li><span>Databases</span><br>Experienced in database management with expertise in SQL and MongoDB,
-                                including designing, optimizing, and querying complex database schemas,
-                                ensuring data integrity and performance.</li>
+                            <li><span>Programming</span><br>Python, SQL, C++, JavaScript</li>
+                            <li><span>Data Analysis</span><br>Excel, EDA, Data Cleaning</li>
+                            <li><span>Visualization</span><br>Power BI, Tableau</li>
+                            <li><span>Libraries</span><br>Pandas, NumPy, Matplotlib, Seaborn</li>
+                            <li><span>Web Development</span><br>MERN Stack</li>
+                            <li><span>Tools</span><br>Git, GitHub, Jupyter</li>
                         </ul>
                     </div>
 
+                    <!-- Experience -->
                     <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>Web Developer Intern</span><br></li>
-                            <li><span>Python Developer Intern</span><br></li>
-                           <!--<li><span>C++</span><br>Designing Web/App interfaces</li>--> 
+                        <ul> 
+                            <li><span>Software Developer Intern(Infosys,Chandigarh)</span><br></li>
+                            <li><span>Technical Support Executive (TP,Mohali)</span><br></li>
+                            <li><span>Data Analytics Intern (IBM SkillsBuild)</span><br></li>
+                            <li><span>Python Developer Intern (Mallikarjuna Infosys)</span><br></li>
                         </ul>
                     </div>
 
+                    <!-- Education -->
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>Central Public School,Samastipur,Bihar</span><br>10th with 83% Marks</li>
-                            <li><span>B.S.C. College,Madhuban,East Champaran,Bihar</span><br>12th with 75.5%</li>
-                            <li><span>Guru Jambheshwar University of science & Technology,Hisar,Haryana</span><br>Bachelor Of Technology(CSE)</li>
+                            <li><span>GJUS&T,Hisar</span><br>B.Tech CSE | CGPA: 7.1</li>
+                            <li><span>12th</span><br>75.5%</li>
+                            <li><span>10th</span><br>83.6%</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-----------------service----------------->
+
+    <!-- Services -->
     <div id="services">
         <div class="container">
             <h1 class="sub-title">My Services</h1>
             <div class="services-list">
                 <div>
                     <i class="fa-solid fa-code"></i>
-                    <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Doloremque velit molestiae nemo cupiditate ipsa alias.</p>
-                        <a href="#">learn more</a>
+                    <h2>Web Development</h2>
+                    <p>Building responsive and scalable web applications using MERN stack.</p>
                 </div>
                 <div>
-                    <i class="fa-solid fa-crop-simple"></i>
-                    <h2>UI/UX</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Doloremque velit molestiae nemo cupiditate ipsa alias.</p>
-                        <a href="#">learn more</a>
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h2>Data Analysis</h2>
+                    <p>Analyzing data using Python, SQL, and Power BI dashboards.</p>
                 </div>
                 <div>
-                    <i class="fa-brands fa-app-store"></i>
-                    <h2>pYTHON dEVELOPER</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Doloremque velit molestiae nemo cupiditate ipsa alias.</p>
-                        <a href="#">learn more</a>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Visualization</h2>
+                    <p>Creating dashboards and insights using Power BI and Tableau.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-----------------portfolio------------------->
+    <!-- Portfolio -->
     <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
+
                 <div class="work">
                     <img src="images/work-1.png">
                     <div class="layer">
-                        <h3>Full Stack Airbnb Clone(stayNjoy)</h3>
-                        <p>Developed a full-stack Airbnb clone called StayAway using the MERN stack, 
-                            implementing user authentication, property listings, 
-                            booking functionalities, and a review system.</p>
-                        <a href="https://github.com/sunny-72/StayNjoy.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                        <h3>StayNjoy (Airbnb Clone)</h3>
+                        <p>Full stack MERN app with authentication and booking system.</p>
+                        <a href="https://github.com/sunny-72"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
-
                 </div>
+
                 <div class="work">
                     <img src="images/work-2.png">
                     <div class="layer">
-                        <h3>Food delivery App</h3>
-                        <p>Developed a responsive food delivery web application using HTML, CSS, and React.
-                             Implemented interactive UI components for browsing menus, placing orders, and tracking deliveries.
-                             Ensured seamless user experience with efficient state management and modern design principles.</p>
-                        <a href=https://github.com/sunny-72/Food-Delivery-App.git><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>T20 Data Analytics</h3>
+                        <p>Analyzed cricket data using Python & Power BI dashboard.</p>
+                    </div>
                 </div>
-                </div>
+
                 <div class="work">
                     <img src="images/work-3.png">
                     <div class="layer">
-                        <h3>News App</h3>
-                        <p>Developed a news web application using HTML, CSS, JavaScript, and an external API.
-                             Implemented features to automatically fetch and display the latest news articles. 
-                             Designed a clean and responsive interface for easy navigation and improved user experience.</p>
-                        <a href=https://github.com/sunny-72/News-App.git><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Vendor Analysis</h3>
+                        <p>SQL + Power BI dashboard for business insights.</p>
+                    </div>
                 </div>
-                </div>
-            
-            <a href="#" class="btn">See more</a>
+
+            </div>
         </div>
     </div>
-    <!---------------contact----------->
+
+    <!-- Contact -->
     <div id="contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                   <!---<p><i class="fa-solid fa-envelope"></i></i>kumarsunny16082002@gmail.com</p>-->
-                  <p> <i class="fa-solid fa-envelope"></i><a href="mailto:kumarsunny16082002@gmail.com?subject=Hello&body=How are you?" style="text-decoration: none;">Send email</a></p>
-                    <p><i class="fa-solid fa-phone"></i></i>7369865784</p>
-                    <div class="social-icons">
-                    <a href="https://www.facebook.com/profile.php?id=100006643451754"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="https://x.com/SUNNY_kRship"><i class="fa-brands fa-twitter-square"></i></a>
-                    <a href="https://instagram.com/snypatel14?utm_source=qr&igshid=OGIxMTE0OTdkZA=="><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/sunnykrpatel"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/sunny-72"><i class="fa-brands fa-github"></i></a>
-                    </div>
-                    <a href="images/sny.pdf" download class="btn btn2">Download CV</a>
+                    <p><i class="fa-solid fa-envelope"></i> kumarsunny16082002@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 7369865784</p>
 
+                    <div class="social-icons">
+                        <a href="https://github.com/sunny-72"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
                 </div>
+
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Messege" rows="6" placeholder="Your Messege"></textarea>
+                        <textarea name="Messege" rows="6" placeholder="Your Message"></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
                     <span id="msg"></span>
                 </div>
             </div>
         </div>
-        <div class="copyright">
-            <p>Copyright © Sunny.Made <i class="fa-solid fa-heart"></i> By Sunny Kumar</p>
-        </div>
     </div>
 
 <script src="script.js"></script>
-<!--github script--->
+
 <script>
-    const scriptURL ='https://script.google.com/macros/s/AKfycbwNw7O65FrRIxh8HhIkPMbF3TegCbP1DTHKzvs9SGv7fC9FQD02fKycm2jH_3UQTBh3/exec'
-    /*'https://script.google.com/macros/s/AKfycbyblhaMUrRLhuwtJo_Y9DAHbUhghNoLoN7oLJY6qBSKw3BG6yG7QHDPDR9ptNpMbD9A/exec'*/
-    const form = document.forms['submit-to-google-sheet']
-    const msg=document.getElementById("msg")
-  
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML="Message Sent Successfully...!"
-            setTimeout(function(){
-                msg.innerHTML=""
-            },1000);
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
+document.addEventListener("DOMContentLoaded", function () {
+
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwNw7O65FrRIxh8HhIkPMbF3TegCbP1DTHKzvs9SGv7fC9FQD02fKycm2jH_3UQTBh3/exec';
+
+  const form = document.forms['submit-to-google-sheet'];
+  const msg = document.getElementById("msg");
+
+  if (!form) {
+    console.error("Form not found ❌");
+    return;
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    msg.innerHTML = "Sending... ⏳";
+
+    fetch(scriptURL, {
+      method: 'POST',
+      body: new FormData(form)
     })
-  </script>
-  <script>
-    function myFunction() {
-      var dots = document.getElementById("dots");
-      var moreText = document.getElementById("more");
-      var btnText = document.getElementById("myBtn");
-    
-      if (dots.style.display === "none") {
-        dots.style.display = "inline";
-        btnText.innerHTML = "Read more"; 
-        moreText.style.display = "none";
-      } else {
-        dots.style.display = "none";
-        btnText.innerHTML = "Read less"; 
-        moreText.style.display = "inline";
-      }
-    }
-    </script>
+    .then(response => {
+      msg.innerHTML = "Message Sent Successfully ✅";
+      setTimeout(() => msg.innerHTML = "", 2000);
+      form.reset();
+    })
+    .catch(error => {
+      msg.innerHTML = "Failed to send ❌";
+      console.error('Error!', error.message);
+    });
+  });
+
+});
+</script>
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
 </body>
 </html>
